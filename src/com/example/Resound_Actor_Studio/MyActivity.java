@@ -53,6 +53,4 @@ public class MyActivity extends Activity {
         mText.setText(PdfToString.fillTextView(), TextView.BufferType.SPANNABLE);
 
     }
-
-
 }
