@@ -26,6 +26,8 @@ proguard/
 *.iml
 *.ipr
 *.iws
+workspace.xml
+misc.xml
 .idea/
 project.properties
 gen-external-apklibs/
