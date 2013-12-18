@@ -44,10 +44,10 @@ public class MyActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-
         mText = (TextView)findViewById(R.id.text);
         mMgr = getResources().getAssets();
         converter = new PdfToString(mPDFText, mText, this);
+
         PdfToString.writeFileToSDCard(mMgr);
         mText.setMovementMethod(new ScrollingMovementMethod());
         mText.setText(PdfToString.fillTextView(), TextView.BufferType.SPANNABLE);
