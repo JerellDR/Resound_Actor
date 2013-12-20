@@ -1,2 +1,4 @@
-Resound_Actor
+Resound Actor
 =============
+
+Simple script rehearsal app for Android.
